@@ -1,0 +1,162 @@
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 113px;
+  flex-direction: column;
+}
+.header .header__up {
+  width: 100%;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
+  background-color: white;
+}
+.header .header__up .header__logo {
+  width: 197px;
+  height: 36px;
+  display: flex;
+  align-content: space-around;
+}
+.header .header__down {
+  background: #EAEAEA;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  z-index: -1;
+}
+
+/****** General ***********/
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --first-color: #9356DC;
+  --second-color: #FF79DA;
+  --third-color: #99E2D0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 0;
+  width: auto;
+  background-color: #F3F3F3;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: left;
+  color: #353535;
+  font-family: Roboto;
+}
+
+.explore {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  /* A modif */
+}
+.explore .explore__title {
+  margin: 39px 42px 0px 42px;
+  width: auto;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+}
+.explore .explore__subtitle {
+  margin: 0px 34px 27px 34px;
+  height: 46px;
+}
+.explore .explore__button {
+  display: flex;
+  margin: 0px 82px 57px 82px;
+  justify-content: center;
+  width: 218px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px transparent;
+  background: linear-gradient(to top, var(--first-color), var(--second-color));
+}
+.explore input[type=button] {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: center;
+}
+
+.fonctionnement {
+  width: 100%;
+  height: 440px;
+  background-color: white;
+}
+.fonctionnement h2 {
+  width: 275px;
+  height: 31px;
+  margin: 48px 20px 26px 20px;
+}
+
+.bouton-un, .bouton-deux, .bouton-trois {
+  position: fixed;
+  width: 322.49px;
+  height: 72.38px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+  background-color: #F6F6F6;
+  border: none;
+}
+
+.bouton-un {
+  top: 505px;
+  left: 32.51px;
+}
+
+.bouton-deux {
+  top: 602.3px;
+  left: 32.51px;
+}
+
+.bouton-trois {
+  top: 699.62px;
+  left: 32.51px;
+}
+
+input[type=button] {
+  color: black;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: center;
+}
+
+.restaurants {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.restaurants h2 {
+  position: fixed;
+  top: 894px;
+}/*# sourceMappingURL=Style.css.map */
